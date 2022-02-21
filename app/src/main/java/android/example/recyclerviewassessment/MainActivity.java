@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 if (event.getAction() == MotionEvent.ACTION_DOWN) {
                     Log.d(DEBUG_TAG,"Action was DOWN");
                     return true;
+                    //create a switch statement out of this
 
                 }
                 return false;
